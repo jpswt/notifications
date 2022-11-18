@@ -1,0 +1,48 @@
+* {
+	--primary-color: hsl(194, 81%, 47%);
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 50vh;
+	border-radius: 6px;
+	border: 1px solid var(--primary-color);
+}
+
+.login {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	width: 50%;
+	padding: 0.625rem;
+	margin-bottom: 1.25rem;
+}
+
+button {
+	width: 60%;
+	padding: 0.625rem;
+	background-color: var(--primary-color);
+	color: white;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+
+.username {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-weight: bold;
+}
